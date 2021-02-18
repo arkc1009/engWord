@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.title {
+  box-shadow: 5px 5px 15px gray;
+  margin-bottom: 2rem;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  border-radius: 30px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 2rem 2rem 2rem;
+  box-shadow: 5px 5px 15px gray;
+  min-width: 500px;
+  height: 100px;
+  margin-right: 2rem;
+}
+
+.inner {
+  margin-top: 2rem;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 2rem 2rem 2rem;
+  box-shadow: 5px 5px 15px gray;
+  min-width: 500px;
+  min-height: 100px;
+}
+
+.subTitle {
+  margin-bottom: 1rem;
+}
+
+.listInner {
+  display: flex;
+  align-items: center;
+  padding: 0.3rem;
+  transition: all 0.5s;
+}
+
+.kor {
+  margin-right: 1rem;
+}
+
+.wordList li {
+  margin-bottom: 5px;
+}
