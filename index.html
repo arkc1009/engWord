@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/global.css" />
+    <title>Random Word</title>
+  </head>
+  <body>
+    <section>
+      <div class="content">
+        <div class="inner">Click to Go!</div>
+        <button id="rButton">Go!</button>
+      </div>
+
+      <div class="list">
+        <h1 class="subTitle">Today Words</h1>
+
+        <div class="listInner">
+          <div class="kor">
+            <h3>Kor</h3>
+            <ul id="korList" class="wordList"></ul>
+          </div>
+
+          <div class="eng">
+            <h3>Eng</h3>
+            <ul id="engList" class="wordList"></ul>
+          </div>
+        </div>
+
+        <button id="hButton">Hide</button>
+      </div>
+    </section>
+
+    <script src="./src/app.js"></script>
+  </body>
+</html>
