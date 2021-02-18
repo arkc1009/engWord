@@ -119,6 +119,12 @@ const korListDom = document.querySelector("#korList");
 const engListDom = document.querySelector("#engList");
 const hButtonDom = document.querySelector("#hButton");
 
+const resetKor = () => {
+  for (let i = 0; i < wordList.length; i++) {
+    wordList[i].kor = "";
+  }
+};
+
 const renderedList = () => {
   for (let i = 0; i < wordList.length; i++) {
     let eEl = document.createElement("li");
@@ -153,4 +159,5 @@ hButtonDom.addEventListener("click", () => {
   else hButtonDom.innerHTML = showAction(listInnerDom);
 });
 
+resetKor();
 renderedList();
